@@ -13,10 +13,10 @@ todayString = str(dt.month) + '-' + str(dt.day)
 todayEvents = allEvents[todayString]
 
 reddit = praw.Reddit(client_id="dati0RLqNGHjWw",
-                     client_secret="GwCr4-c0U3skYBRbYz2izqHYKAo",
+                     client_secret="SECRET",
                      user_agent="script:com.apc.apcEvents:v1.0.0 (by /u/A_Peoples_Calendar)",
                      username="A_Peoples_Calendar",
-                     password="PASSWORD GOES HERE")
+                     password="PASSWORD")
 
 #the following works:
 #title = "PRAW test"
